@@ -7,7 +7,8 @@ SOURCES += main.cpp \
     book.cpp \
     elements.cpp \
     entertosystem.cpp \
-    user.cpp
+    user.cpp \
+    controller.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
@@ -16,5 +17,6 @@ HEADERS += \
     book.h \
     elements.h \
     entertosystem.h \
-    user.h
+    user.h \
+    controller.h
 
