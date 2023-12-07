@@ -1,11 +1,16 @@
 #ifndef ENTERTOSYSTEM_H
 #define ENTERTOSYSTEM_H
 
+#include <string>
+#include <fstream>
 
-class entertosystem
+using namespace std;
+
+class EnterToSystem
 {
 public:
-    entertosystem();
+    EnterToSystem();
+    int Login();
 };
 
 #endif // ENTERTOSYSTEM_H
